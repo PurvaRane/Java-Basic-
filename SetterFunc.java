@@ -1,29 +1,30 @@
-
-    class Rectangle{
-        private int length , breadth ;
-        public void area(){
-            System.out.println("Area of Rectangle : "+(length*breadth));
-        }
-        public void permiter(){
-            System.out.println("Perimeter of Rectangle : "+(2*(length+breadth)));
-        }
-        public void setDimention(int m , int n){
-            length = m;
-            breadth = n;
-        }
+class Rectangle{
+    private int length ,breadth ;
+    public
+    void area(){
+        int a = length*breadth;
+        System.out.println("Area = "+a);
     }
-    public class SetterFunc {
-        public static void main(String[] args) {
-            Rectangle a ,b;
-            a = new Rectangle();
-            b = new Rectangle();
-            a.setDimention(6, 7);
-            b.setDimention(5, 4);
-            a.area();
-            a.permiter();
-            b.area();
-            b.permiter();
-        }
+    void permiter(){
+        int p = 2 * (length+breadth);
+        System.out.println("Perimeter = "+p);
     }
-    
+    void setDimension(int x,int y ){
+        length = x;
+        breadth = y;
+    }
 
+}
+public class SetterFunc {
+    public static void main(String[] args) {
+        Rectangle a,b;
+        a = new Rectangle();
+        b = new Rectangle();
+        a.setDimension(5,6);
+        b.setDimension(7,8);
+        a.area();
+        a.permiter();
+        b.area();
+        b.permiter();
+    }
+}
