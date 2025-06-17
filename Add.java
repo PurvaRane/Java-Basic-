@@ -14,7 +14,7 @@ class Add{
         int binaryVariable1 = Num.nextInt();
         System.out.println("Enter binary number:");
         int binaryVariable2 = Num.nextInt();
-
+ 
         int sum = binaryVariable1+binaryVariable2;
         System.out.println(Integer.toBinaryString(sum)); //toBinaryString
     }

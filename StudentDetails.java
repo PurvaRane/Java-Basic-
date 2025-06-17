@@ -6,12 +6,12 @@ public class StudentDetails {
         System.out.print("Enter Name : ");
         String name = info.nextLine();
         System.out.print("Enter Branch : ");
-        String brach = info.nextLine();
+        String branch = info.nextLine();
         System.out.print("Enter Roll No. : ");
         int rollNo = info.nextInt();
         System.out.print("Enter Age : ");
         int age = info.nextInt();
-        Student studentinfo = new Student(name,brach,rollNo,age);
+        Student studentinfo = new Student(name,branch,rollNo,age);
 
     
 

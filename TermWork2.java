@@ -1,49 +1,62 @@
-/*Name:  kaushal Rajesh shinde
-  Prn No.: 2130403245056
-  Roll No.:2211866
-  Title:  Program of Implementing GUI interface using AWT components(Frame,
-  Button, Label, TextField, TextArea, Checkbox, CheckboxGroup, Choice (Radio Button),
-  Canvas, Panel)
-*/
-import java.awt.*;
-import java.awt.event.*;
-public class TermWork2 extends Frame 
+import java.util.Scanner;
+
+class Bank 
 {
-    TermWork2()
+    double balance;
+    public double getBalance()
     {
-    setLayout(null);
-    setSize(500,500);
-    setVisible(true);
-
-    Label l = new Label("Name");
-    l.setBounds(40,50,80,30);
-
-    TextField tf = new TextField();
-    tf.setBounds(130,50,200,30);
-
-    TextField tf2 = new TextField("Enter ur name");
-    tf2.setBounds(230,60,50,40);
-
-    Button b = new Button("Click");
-    b.setBounds(40,100,60,30);
-
-    add(l);
-    add(tf);
-    add(b);
-    add(tf2);
-
-
-    b.addActionListener(new ActionListener()
-      {
-          public void actionPerformed(ActionEvent e)
-          {
-            tf.setText("Hey,I am Kaushal Rajesh Shinde...");
-            tf2.setText("Now i am Live in Mumbai");
-          }
-      });
+        return 0;
     }
-
+}
+class SBI extends Bank
+{
+    SBI (double amount)
+    {
+        balance = amount;
+    }
+    public double  getBalance()
+    {
+        return balance;
+    }
+}
+class PNB extends Bank
+{
+    PNB(double amount)
+    {
+        balance = amount;
+    }
+    public double getBalance()
+    {
+        return balance;
+    }
+}
+class HDFC extends Bank
+{
+    HDFC (double amount)
+    {
+        balance = amount;
+    }
+    public double getBalance()
+    {
+        return balance;
+    }
+}
+public class TermWork2
+{
     public static void main(String[] args) {
-       new TermWork2();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("This program demonstrate method overriding, a form of run-time Polymorphismin java");
+        System.out.println("Enter the amount you want to deposite in SBI : ");
+        double sbi1 = sc.nextDouble();
+        System.out.println("Enter the amount you want to deposite in PNB : ");
+        double pnb1 = sc.nextDouble();
+        System.out.println("Enter the amount you want to deposite in HDFC : ");
+        double hdfc1 = sc.nextDouble();
+        SBI s1=new SBI(sbi1);
+        PNB p1=new PNB(pnb1);
+        HDFC h1=new HDFC(hdfc1); 
+        System.out.println(" The ammount deposite in SBI is : " + s1.getBalance());
+        System.out.println(" The amount deposited in PND is :" + p1.getBalance());
+        System.out.println(" The amount deposited in HDFC is :" +h1.getBalance());
     }
 }

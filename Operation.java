@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 import javax.sql.rowset.spi.SyncResolver;
-
 public class Operation{
     public static void main(String[] args) {
         Scanner ca = new Scanner(System.in);
@@ -127,11 +126,10 @@ tp1.ternaryOperation();
 
 }
 
-//end of main class
 
 
 
-class ArithmaticOperation{ //class 1
+class ArithmaticOperation{
     int operand1;
     int operand2;
     ArithmaticOperation(int operand1,int operand2){
@@ -162,7 +160,7 @@ class ArithmaticOperation{ //class 1
 
     
 }
-class RelationalOperation{ //class 2
+class RelationalOperation{
     int operand1;
     int operand2;
     RelationalOperation(int operand1,int operand2){
@@ -192,7 +190,7 @@ class RelationalOperation{ //class 2
   }   
  }
 
- public boolean compGreaterthanOp(){ //class 3
+ public boolean compGreaterthanOp(){
     if(operand1>operand2){
         return true;
 
@@ -230,7 +228,7 @@ class RelationalOperation{ //class 2
     }
  }
 }
-class LogicalOperators{ //class 4
+class LogicalOperators{
 int number1;
 int number2;
  LogicalOperators(int number1,int number2){
@@ -255,7 +253,7 @@ int number2;
     }
  }
 }
-class UnaryOperator{ //class 5
+class UnaryOperator{
    int x;
    UnaryOperator(int x){
     this.x=x;
@@ -284,7 +282,7 @@ class UnaryOperator{ //class 5
  }
 
 }
-class TernaryOperator{  //class 6
+class TernaryOperator{
         int  num1, no2 , no3 ;
        TernaryOperator(int num1,int no2 , int no3){
         this.num1 = num1;

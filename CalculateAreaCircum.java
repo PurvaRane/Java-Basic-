@@ -12,11 +12,11 @@ public class CalculateAreaCircum {
         System.out.println("Circumference : " + cir);
         System.out.println("Area : " + ar);
     }
-    
+
 
 }
 
- class Circle{
+class Circle{
     int radius;
     final double PI = 3.14;
     
@@ -27,12 +27,11 @@ this.radius = radius;   //constructor
 public double area(){
 double area = PI * radius * radius ;      //method 1
 return area;
+
 }
 public double circum(){
     double circumference  = 2 * PI * radius ;    //method 2
 return circumference;
-
 }
 }
-
 
