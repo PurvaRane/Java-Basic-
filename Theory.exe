@@ -1,0 +1,32 @@
+Q . How does java code run ?
+
+1.Compiler        converts in to byte code
+2.Executor        JVM converts byte code into native code 
+JDK JRE JVM
+
+Q . Code 
+
+1. Function : 
+ void main(){}
+ int main(){}
+ are the type of functions ,
+ which are written in class . 
+ Main function is the first part which gets executed !
+
+2. Class : 
+class <classname> {
+    //functions
+}
+
+Q. How to print output?
+System.out.print("hello "+"miss  "+"purva ");
+output:
+hello miss purva
+We can use " " or ' ' to print the string out .
+
+Q. what is boiler  plate code?
+The code which is already present for the programmer is called as boiler plate code.
+
+Q. how to go to new line ?
+We can use "\n" or println in java to print in the next line .
+

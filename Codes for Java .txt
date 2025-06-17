@@ -1,0 +1,89 @@
+Codes for Java :
+
+Q1. WAP to print sum of 2 numbers
+Q2. WAP to find mean of given 3 numbers 
+Q3. WAP to exchange the values of two numbers
+Q4. WAP to exchange the values of two numbers without using third variable 
+Q5. WAP to print the last digit of any number 
+Q6. WAP to check if a given number is odd or even
+Q7. WAP to check if a triangle can be formed from 3 angle.
+Q8. WAP to print total marks of a student from given marks of 5 subject also print percentage if student is passed .
+Q9. WAP to print total marks of a student from given marks of 5 subject also print percentage if student is pass also student is passed with first class or not .
+Q10. WAP to print following output 1. per >=75  -- Destination 2. 60-75 --1st 3. 50-60 -- 2nd
+                                   4.40-50 -- 3rd 5. <40 -- Fail 
+Q11. WAP to find greatest number from given different numbers.
+Q12. Example of Ternary Operator 
+Q13. WAP to print all 1 to 10 numbers.
+Q14. WAP to print all numbers from 1 to n which divides the number n perfectly 
+Q15. WAP to print all numbers from 10 to 1.
+Q16. WAP to print all the numbers from 100 to 1 which is divisible by 2 or 5 .
+Q17. WAP to print all the numbers from 1 to n which divide the number n perfectly .
+Q18. Implement Jump , Break and Continue 
+Q19. Print single digit numbers into words by using SWITCH case.
+Q20. Perform all the programs for reading data.
+Q21. WAP to print 1 to 100  numbers by using function
+Q22. WAP to print Stars by using function 
+Q23. Design a function odd which will print all the odd numbers in range 1 to 100
+Q24. WAP to use function with arguement 
+Q25. Design a function which will display all number from 1st argument to 2nd argument
+Q26. WAP to print function which will return area of rectangle the l and b is passed as an argument 
+Q27. Design a function volume which will volume of box where l.b.h are passed as argument 
+Q28. Design a class rectangle containing data members length , breadth and member functions area and perimeter 
+Q29. Design a class rectangle containing data members length , breadth and member functions area and perimeter by also adding the setter function 
+Q30. Design class box containing data members l,b,h and member functions set dimension and volume 
+Q31. Design a function volume which will calculate and return value of sphere from specific radius which passed as argument
+Q32. Program to create three rectangle A,B,C size (5*7) (4*6) (8*8) calculate their total area.
+Q33. Program to create 2 Circle a(radius = 5) b(radius = 2.5) Display area
+Q34. Program to create 2 students a (roll no = 4117 name = ' ') , b(name,rollno) Display their information .
+Q35. Pattern 1 :
+
+0
+2 2
+4 4 4
+6 6 6 6
+8 8 8 8 8 
+
+Pattern 2 : 
+
+1
+2 2 
+1 1 1
+2 2 2 2
+1 1 1 1 1
+
+Pattern 3 :
+
+         1
+      1 2 3 
+    1 2 3 4 5 
+  1 2 3 4 5 6 7 
+1 2 3 4 5 6 7 8  9 
+
+Q36. Check if a number is palindrome number or not
+Q37. WAP to check if a number is spy (sum of digits must be equal to the product of digit) number or not 
+Q38. Check if a no is duck number or not (zero is present)
+Q39. Design a class information which display a message when an object is created 
+Q40. Program to create a account type of object whose account no is 4117 balance is 25000 , Calculate intrest for 5 years using rate 10.25 also calculate intrest for 2 years using rate 9.75
+
+
+
+End Sem :
+
+Q1. Write a program to find sum and product of all elements in an array .
+Q2. Find the largest and smallest element of an array .
+Q3. WAP  for single and multi dimensional array .
+Q4. Program for Constructor 
+Q5. static and this keyword program
+Q6. Program for types of Inheritance 
+Q7. Constructor call program 
+Q8. Programs for exception handling mechanism 
+Q9. WAP to create a user defined exception class
+Q10. WAP for priority thread 
+Q11. WAP for applet lifecycle methods 
+Q12. WAP for abstract class
+Q13. WAP for vector 
+Q14. WAP to create an object in java
+Q15. WAP to draw rectangle in applet 
+Q16. WAP to store 5 person type object info in an vector and display info 
+Q17. WAP to read an array list of n size and find sum of all even numbers store 5 person type object 
+
